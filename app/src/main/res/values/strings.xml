@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SetiApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seti_bienvenida">SetiBienvenida</string>
+    <string name="iniciar_service">Iniciar el Servicio!</string>
+    <string name="parar_service">Parar el Servicio!</string>
+</resources>

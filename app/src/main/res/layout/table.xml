@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tlTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tr0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:minHeight="50dp">
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="5dip">
+    </TableRow>
+
+    <Button
+        android:id="@+id/bIniciarSer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/iniciar_service"/>
+
+    <TableRow
+        android:id="@+id/tr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:minHeight="20dp">
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="5dip">
+    </TableRow>
+
+    <Button
+        android:id="@+id/bPararSer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/parar_service"/>
+
+
+
+</TableLayout>
